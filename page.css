@@ -5,6 +5,8 @@
 #fraCaveList a[href="cave.php?id=529649"] .cave-grid img {
 content: url("https://aimsquire.github.io/Css/8m9kll8b9mk81.jpg");
 width: 100%;
-height: 110px;
+height: auto;
+max-width: 100%;
+aspect-ratio: 2 / 1;
 object-fit: cover;
 }

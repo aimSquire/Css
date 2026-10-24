@@ -8,3 +8,9 @@ width: 100%;
 height: 127px;
 object-fit: cover;
 }
+#fraCaveList a[href="cave.php?id=330716"] .cave-grid img {
+    content: url("https://aimsquire.github.io/Css/8f9ef6qslv9f1~2.jpeg");
+    width: 100%;
+    height: 127px;
+    object-fit: cover;
+}

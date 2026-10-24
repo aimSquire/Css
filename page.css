@@ -25,3 +25,8 @@ html {
 body {
     background: transparent !important;
 }
+#main,
+#content,
+.container {
+    background-color: transparent !important;
+}

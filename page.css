@@ -29,4 +29,10 @@ html {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
+}body {
+    background: transparent !important;
+}
+
+#pageContainer {
+    background-color: transparent !important;
 }

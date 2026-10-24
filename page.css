@@ -86,3 +86,13 @@ footer {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000;
 }
+#pageContainer .btn,
+#pageContainer .btn-default,
+#pageContainer .btn-primary,
+#pageContainer .panel-heading,
+#pageContainer .accordion-toggle {
+    background: rgba(7, 24, 45, 0.5) !important;
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000 !important;
+    border-color: rgba(212, 175, 55, 0.3) !important;
+}

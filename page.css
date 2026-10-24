@@ -25,8 +25,12 @@ html {
 body {
     background: transparent !important;
 }
+/* Make the main den background transparent */
 #main,
 #content,
-.container {
-    background-color: transparent !important;
+#main-content,
+#fraProfileContent,
+.container,
+.container-fluid {
+    background: transparent !important;
 }

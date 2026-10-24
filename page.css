@@ -48,3 +48,17 @@ html {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000;
 }
+#sidebar,
+#footer,
+footer,
+.container-fluid {
+    background-color: transparent !important;
+}
+
+#sidebar h3,
+#sidebar h4,
+#footer,
+footer {
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000;
+}

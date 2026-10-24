@@ -61,24 +61,11 @@ body > .container-fluid,
     color: #D4AF37 !important;
 }
 
+#pageSidebar {
+    background: #07182D !important;
+}
+
 #pageSidebar h3,
 #pageSidebar h4 {
     color: #D4AF37 !important;
-    text-shadow: 1px 1px 3px #000000;
-}
-#pageSidebar {
-    background: transparent !important;
-}
-
-#pageSidebar::before,
-#pageSidebar::after {
-    background: transparent !important;
-}
-
-body {
-    background-color: transparent !important;
-}
-
-html {
-    background-color: #07182D !important;
 }

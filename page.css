@@ -14,10 +14,14 @@ object-fit: cover;
     height: 127px;
     object-fit: cover;
 }
-body {
+html {
     background-image: url("https://aimsquire.github.io/Css/istockphoto-828004900-612x612.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+body {
+    background: transparent !important;
 }

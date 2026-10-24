@@ -71,3 +71,18 @@ footer {
     background: transparent !important;
     color: #D4AF37 !important;
 }
+#pageContainer .dynastylist .left,
+#pageContainer .panel-heading,
+#pageContainer .btn,
+#pageContainer .dynastycollection a,
+#pageContainer .alert {
+    background-color: rgba(7, 24, 45, 0.5) !important;
+    color: #D4AF37 !important;
+}
+
+#pageContainer .dynastylist .left h3,
+#pageContainer .panel-heading,
+#pageContainer .btn {
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000;
+}

@@ -1,27 +1,34 @@
 #lion_image {
-  border: 5px solid #D4AF37;
-  border-radius: 10px;
+    border: 5px solid #D4AF37;
+    border-radius: 10px;
 }
+
 #fraCaveList a[href="cave.php?id=529649"] .cave-grid img {
-content: url("https://aimsquire.github.io/Css/Screenshot_20261023_175247_Photos.jpg");
-width: 100%;
-height: 127px;
-object-fit: cover;
+    content: url("https://aimsquire.github.io/Css/Screenshot_20261023_175247_Photos.jpg");
+    width: 100%;
+    height: 127px;
+    object-fit: cover;
 }
+
 #fraCaveList a[href="cave.php?id=330716"] .cave-grid img {
     content: url("https://aimsquire.github.io/Css/8f9ef6qslv9f1~2.jpeg");
     width: 100%;
     height: 127px;
     object-fit: cover;
 }
+
 html {
     background-image: url("https://aimsquire.github.io/Css/istockphoto-828004900-612x612.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #07182D;
 }
 
+body {
+    background: transparent !important;
+}
 
 #pageContainer {
     background-image: url("https://aimsquire.github.io/Css/patrick-connor-klopf-o4ahMT4wHH0-unsplash.jpg") !important;
@@ -29,14 +36,7 @@ html {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
-}body {
-    background: transparent !important;
-}
-
-#pageContainer {
     background-color: transparent !important;
-}
-#pageContainer {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000;
 }
@@ -48,19 +48,26 @@ html {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000;
 }
+
 body > .container,
-body > .container-fluid,
-#pageSidebar,
-#pageSidebar::before,
-#pageSidebar::after {
+body > .container-fluid {
     background: transparent !important;
-    background-color: transparent !important;
 }
+
 #pageSidebar {
     background: rgba(7, 24, 45, 0.5) !important;
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 #pageSidebar h3,
 #pageSidebar h4 {
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#footer,
+footer {
+    background: transparent !important;
     color: #D4AF37 !important;
 }

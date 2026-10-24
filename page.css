@@ -22,15 +22,6 @@ html {
     background-attachment: fixed;
 }
 
-body {
-    background: transparent !important;
-}
-/* Make the main den background transparent */
-#main,
-#content,
-#main-content,
-#fraProfileContent,
-.container,
-.container-fluid {
+#pageContainer {
     background: transparent !important;
 }

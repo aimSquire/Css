@@ -22,6 +22,11 @@ html {
     background-attachment: fixed;
 }
 
+
 #pageContainer {
-    background: transparent !important;
+    background-image: url("https://aimsquire.github.io/Css/istockphoto-828004900-612x612.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
 }

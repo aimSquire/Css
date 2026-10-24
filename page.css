@@ -57,12 +57,7 @@ body > .container-fluid,
     background-color: transparent !important;
 }
 #pageSidebar {
-    background: transparent !important;
-    color: #D4AF37 !important;
-}
-
-#pageSidebar {
-    background: #07182D !important;
+    background: rgba(7, 24, 45, 0.5) !important;
 }
 
 #pageSidebar h3,

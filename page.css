@@ -40,7 +40,12 @@ body {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000;
 }
-
+#pageContainer .dynastylist .left,
+#pageContainer .panel-heading,
+#pageContainer .btn {
+    border: 1px solid rgba(212, 175, 55, 0.6) !important;
+    border-radius: 8px !important;
+}
 #pageContainer h1,
 #pageContainer h2,
 #pageContainer h3,

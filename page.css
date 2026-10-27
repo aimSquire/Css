@@ -145,9 +145,14 @@ footer {
     color: #D4AF37 !important;
 }
 #pageSidebar .progress > div:not(.progress-bar) {
-    color: #FFFFFF !important;
-    text-shadow: 1px 1px 3px #000000,
-                 -1px -1px 3px #000000 !important;
+    color: #DC3545 !important;
+    text-shadow: 1px 1px 2px #000000,
+                 -1px -1px 2px #000000 !important;
     position: relative;
     z-index: 2;
+}
+
+#pageSidebar .panel {
+    border: 2px solid #D4AF37 !important;
+    border-radius: 10px !important;
 }

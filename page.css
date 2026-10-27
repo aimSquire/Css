@@ -107,16 +107,28 @@ footer {
     text-shadow: 1px 1px 3px #000000 !important;
     border-color: rgba(212, 175, 55, 0.3) !important;
 }
-#pageContainer .progress,
+#pageSidebar .panel,
+#pageSidebar .panel-body {
+    background: rgba(7, 24, 45, 0.5) !important;
+    color: #D4AF37 !important;
+}
+
 #pageSidebar .progress {
-    background-color: rgba(7, 24, 45, 0.7) !important;
-    border: 1px solid rgba(212, 175, 55, 0.5) !important;
+    background: #07182D !important;
+    border: 1px solid #D4AF37 !important;
     border-radius: 8px !important;
 }
 
-#pageContainer .progress-bar,
-#pageSidebar .progress-bar {
-    background-color: #D4AF37 !important;
-    color: #07182D !important;
-    border-radius: 8px !important;
+#pageSidebar .progress .progress-bar,
+#pageSidebar .progress .progress-bar-warning,
+#pageSidebar .progress .progress-bar-danger,
+#pageSidebar .progress .progress-bar-success {
+    background: #D4AF37 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+
+#pageSidebar .progress > div:not(.progress-bar) {
+    color: #D4AF37 !important;
+    text-shadow: 1px 1px 3px #000000 !important;
 }

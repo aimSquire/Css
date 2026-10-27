@@ -132,3 +132,15 @@ footer {
     color: #D4AF37 !important;
     text-shadow: 1px 1px 3px #000000 !important;
 }
+#pageSidebar .panel,
+#pageSidebar .panel-default,
+#pageSidebar .panel-body,
+#pageSidebar .panel-default > .panel-body {
+    background-color: rgba(7, 24, 45, 0.5) !important;
+    background-image: none !important;
+    color: #D4AF37 !important;
+}
+
+#pageSidebar .panel-body a {
+    color: #D4AF37 !important;
+}

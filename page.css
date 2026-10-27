@@ -142,13 +142,9 @@ footer {
 }
 
 #pageSidebar .progress > div:not(.progress-bar) {
-    color: #FF4D5A !important;
-    text-shadow:
-        -1px -1px 0 #07182D,
-         1px -1px 0 #07182D,
-        -1px  1px 0 #07182D,
-         1px  1px 0 #07182D,
-         0 0 3px #07182D !important;
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px #000000,
+                 -1px -1px 3px #000000 !important;
     position: relative;
     z-index: 2;
 }

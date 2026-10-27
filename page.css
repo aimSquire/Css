@@ -114,7 +114,9 @@ footer {
     border-radius: 8px !important;
 }
 
-#pageContainer .progress-bar {
+#pageContainer .progress-bar,
+#pageSidebar .progress-bar {
     background-color: #D4AF37 !important;
     color: #07182D !important;
+    border-radius: 8px !important;
 }
